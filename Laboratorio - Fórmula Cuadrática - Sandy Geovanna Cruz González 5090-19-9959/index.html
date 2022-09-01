@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LAOBRATORIO 4 - SANDY CRUZ</title>
+    <link rel="stylesheet" href="css/style.css" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
+  </head>
+  <body>
+      <div class="principal">
+          <h1>Cálculo de fórmula cuadrática</h1>
+          <form class="miForm" action="">
+            <label class="l1" for="numero1">
+            <span>Ingrese el valor de 'a': </span>
+            <input type="number" name="numero1" id="val1"/>
+            </label>
+            <label class="l2" for="numero2">
+            <span>Ingrese el valor de 'b':</span>
+            <input type="number" name="numero2" id="val2"/>
+            </label>
+            <label class="l3" for="numero3">
+            <span>Ingrese el valor de 'c': </span>
+            <input type="number" name="numero3" id="val3"/>
+            </label>
+        </form>
+        <br>
+        <br>
+        <center>
+            <button id="btn">ENVIAR</button>
+        </center>
+        </div>
+        <br>
+        <br>
+        <center>
+            <div class="resultado">
+                <p id="result"></p>
+            </div>
+        </center>
+        <br>
+        <br>
+        <center>
+            <div class="grafica">
+                <h2>*** Gráfica ***</h2>
+                <canvas id="myChart" width="200" height="200"></canvas>
+            </div>
+        </center>
+        <script src="js/formulaCuadratica.js"></script>
+  </body>
+</html>
